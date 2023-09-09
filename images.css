@@ -1,0 +1,62 @@
+/* Reset some default styles for the slider */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    align-items: center;
+    flex-direction: column;
+    border: black, solid;
+    
+}
+
+/* Style the slider container */
+.slider-container {
+    position: relative;
+    max-width: 70%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+/* Style the images inside the slider */
+.slider-images img {
+    display: flex;
+    max-width: 50%;
+    height: 45%;
+    align-items: center;
+}
+
+/* Style the navigation controls (prev and next buttons) */
+.slider-controls {
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* Customize the prev and next buttons */
+.prev-button,
+.next-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    margin: 0 10px;
+    font-size: 16px;
+}
+
+/* Hover effect for buttons */
+.prev-button:hover,
+.next-button:hover {
+    background-color: #555;
+}
+
+h1 {
+    text-align: center;
+    background-color: #555;
+    color: black;
+    
+    
+    
+}
